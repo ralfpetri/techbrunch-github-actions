@@ -26,7 +26,7 @@ class RocketHelloWorldApplicationTests {
 				.andExpect(content().string(equalTo("Greetings from Rocket!")));
 	}
 
-	 Übung 2
+	 //Übung 2
 	 @Test
 	 public void getBye() throws Exception {
 	 	mvc.perform(MockMvcRequestBuilders.get("/bye").accept(MediaType.APPLICATION_JSON))
